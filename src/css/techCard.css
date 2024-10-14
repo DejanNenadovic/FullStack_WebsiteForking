@@ -1,0 +1,54 @@
+.techCard_box__j1mN7 {
+  transition: all 0.5s;
+  max-width: 335px;
+  max-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 10px;
+}
+
+.techCard_box__j1mN7 img {
+  width: 100%;
+  height: 100%;
+}
+
+.techCard_imageItem__PHXmj {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .techCard_box__j1mN7:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .techCard_box__j1mN7 {
+    max-height: 70px;
+    max-width: 100%;
+  }
+}
+
+.techStackOurClient_mobileFirstBatch__U4DFq{
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.techStackOurClient_mobileSecondButch__zw_mx{
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.techCard_box_span1{
+  box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;
+}
+.techCard_box_span2{
+  box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;
+}
+.techCard_img{
+  position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain; visibility: visible;
+}

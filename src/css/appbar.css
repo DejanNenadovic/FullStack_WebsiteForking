@@ -1,0 +1,91 @@
+.AppBarStyle{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 100px;
+    display: block;
+    width: 100%;
+}
+.HeaderBarStyle{
+    background: linear-gradient(90deg,#1049b3 0.08%,#2268eb 100.59%);
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.LogoImgStyle{
+    cursor:pointer;
+    align-self: center;
+    margin: 100px;
+    width: 10%;
+    min-width: 150px;
+}
+
+.HeaderMenuIconStyle{
+    cursor:pointer;
+    align-self: center;
+    padding-right: 20px;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+    .HeaderMenuStyle{
+        min-width: 100px;
+        visibility: hidden;
+    }
+    .HeaderMenuIconStyle{
+        visibility: visible;
+    }
+}
+.HeaderMenuStyle{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin-left: 15%;
+    justify-content: center;
+}
+
+.menuItemStyle{
+    color: whitesmoke;
+    font-size: 18px;
+    width: 100%;
+    height: 20px;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.menuItemStyle.menuLabelItem{
+    cursor: pointer;
+}
+.HeaderDropMenuStyle{
+    visibility: hidden;
+}
+.MenuItemSpanStyle_show{
+    width: '80%';
+    height:'2px';
+    background-color:'white';
+    visibility:visible;
+}
+.MenuItemSpanStyle{
+    width: '100px';
+    height:'2px';
+    background-color:'white';
+    transition: 'width 0.3s';
+}
+.MenuItemSpanStyle:hover{
+    width:'200px';
+}
+/* .MenuItemSpanStyle:hover{
+    width: 100%;
+    transition:'width 0.3s'
+} */
+
+/* .menuItemStyle.active::after{
+    width: 100%;
+} */
